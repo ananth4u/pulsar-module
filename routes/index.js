@@ -4,7 +4,7 @@ var router = express.Router();
 (async () => {
   // Create a client
   const client = new Pulsar.Client({
-    serviceUrl: 'pulsar://localhost:6650',
+    serviceUrl: 'pulsar://34.93.225.83:6650',
   });
 
   // Create a producer
